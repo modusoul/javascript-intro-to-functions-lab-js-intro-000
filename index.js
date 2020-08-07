@@ -19,8 +19,8 @@ function logWhisper(string)
 }
 
 function sayHiToGrandma(sentence)
-
-if (sentence =="I love you, Grandma.")
+{
+if (sentence == "I love you, Grandma.")
 {
   return "I love you too"
 }
@@ -33,4 +33,5 @@ else if (sentence == whisper(sentence))
 else if (sentence == shout(sentence))
 {
   return 'YES INDEED!'
+}
 }
